@@ -1,0 +1,63 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.right-side-widgets
+{
+    margin-top: 15px;
+   background-color: brown;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(50px,auto);
+    
+
+}
+button{
+    
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+input[type="text"]
+{
+    border-radius: 25px;
+}
+
+.right-side-widgets .box1
+{
+    border: 1px black solid;
+    padding: 0;
+    display: grid;
+    grid-auto-rows: minmax(50px,auto);
+    grid-template-columns: 80% 20%;
+    
+    box-sizing: border-box;
+}
+
+.right-side-widgets .box1 h3
+{
+ text-align: center;
+    margin-top: 10px;
+
+}
+
+.right-side-form
+{
+    border: 2px black solid;
+} 
+.right-side-form h2{
+    padding:5px;
+    margin: 0px;
+    font: 2em tahoma;
+    text-transform: uppercase;
+}
+.right-side-form .data-entry
+{
+    margin: 10px;
+    width:40%;
+   
+    height: 50px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
